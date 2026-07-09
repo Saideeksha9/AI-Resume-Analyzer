@@ -1,0 +1,60 @@
+/* Main Background */
+.stApp {
+    background-color: #f4f7fc;
+}
+
+/* Title */
+h1 {
+    color: #1f4e79;
+    text-align: center;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #1f4e79;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Metric Cards */
+div[data-testid="metric-container"] {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+    border-left: 6px solid #1f77b4;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #1f77b4;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #145a86;
+}
+
+/* File Uploader */
+section[data-testid="stFileUploader"] {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Text Area */
+textarea {
+    border-radius: 10px !important;
+}
+
+/* Success Message */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
